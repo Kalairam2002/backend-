@@ -8,7 +8,8 @@ const app = express();
 // 🔑 Whitelisted origins
 const allowedOrigins = [
   "http://localhost:5173",          
-    "https://backend-bnf5.onrender.com"
+    "https://backend-bnf5.onrender.com",
+    "https://rfid-software.staging-rdegi.com"
 ];
 
 // ✅ Define corsOptions BEFORE using it
